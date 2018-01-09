@@ -1,0 +1,307 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      background-color:#ffffff !important; 
+}
+body {
+  margin: 0 auto;
+  background-color:#ffffff !important;
+}
+/*--- was: background-color:#b61924 !important; ---*/
+
+/*FONTS*/
+@font-face {
+    font-family: 'braggadocioregular';
+    src: url('../fonts/1316-webfont.eot');
+    src: url('../fonts/1316-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/1316-webfont.woff2') format('woff2'),
+         url('../fonts/1316-webfont.woff') format('woff'),
+         url('../fonts/1316-webfont.ttf') format('truetype'),
+         url('../fonts/1316-webfont.svg#braggadocioregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wsbfont{font-family:'braggadocioregular', 'Roboto', sans-serif, verdana !important; font-style:italic; color:#b61924;}
+.wsbfont2{font-family:'braggadocioregular', 'Roboto', sans-serif, verdana !important; font-style:italic; color:#fff;}
+.wsb-title{font-size: 1.6em;}
+#wsb-text{margin-left: 0.6em; font-family:'Roboto', sans-serif, verdana !important; font-size:1.2em;font-weight: 200;}
+.logocss{font-family:'braggadocioregular' !important; font-style:italic; color:#f63440; font-size:1.8em !important;}
+a:hover{text-decoration:none !important;}
+h1, h2, h3, h4, h5, h6, p, a, a:hover {font-family:'Roboto', arial, sans-serif, verdana !important; color:#222222;}
+.red{color:#b61924 !important;}
+/*# sourceMappingURL=bootstrap.css.map */
+
+/*-----HEADER-----*/
+
+#brand-div{margin-top:-24px !important; }.navbar, .navbar-default, .navbar-fixed-top, .navbar-header{background-color:rgba(250,250,250,1.0);}
+.navbar-header{background-color:rgba(250,250,250,0.0);}
+.navbar-brand{background-color:transparent !important;}
+ul.navbar-nav{margin-top:16px !important; font-size: 0.9rem;}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+/*--section#intro-wsb{background-color:transparent !important; margin-top: -160%;}--*/
+/*---section#intro-wsb{position: absolute; top: 80px; left:8%;}--*/
+
+.ref-info{background-color: rgba(250,250,250,0.95); width:auto; height:52px; min-height: 52px; white-space: pre-line; padding: 6px 12px 8px 12px; margin-top: 22px;margin-bottom:22px;}
+.ref-info p {color:#000 !important;}
+.ref-info a{color:#777 !important;}
+.ref-info a:hover{color:#b61924 !important;}
+.contact{white-space: pre-line; padding:12px 18px; border:2px solid #fff; margin:16px; color:#fff; font-weight: 600; max-width: 97.5%;}
+#contact{margin-top: 52px;}
+/*.center-block {  
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}*/
+
+/*---VIDEO---*/
+.video-container {
+  width: 100%;
+  max-height: 390px;
+  overflow: hidden;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.8);
+  z-index: 100;
+}
+#video-bg {
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.8);
+  /*--background: transparent url(video-bg.jpg) no-repeat;---*/
+  background-size: cover;
+}
+video {
+  display: block;
+}
+
+#vidlayer{position: absolute; top:10px; width:100%;min-height: 390px;max-height: 390px;background: url("../img/wsb-header-3.png") no-repeat;background-position: right bottom;}
+.layer-bg1{margin-top:60px; margin-left:-8px;}
+video {width:100% !important;}/*---- for unknown reason this makes video littlebit smaller which is good----*/
+h1#megatxt{color:#f5f5dc;line-height:4.0rem;padding-left: 160px; padding-top: -32px; text-shadow: 3px 3px 2px rgba(41, 49, 51, 1);}
+/*---- END VIDEO HEADER----*/
+
+
+h1.intro-text{font-weight: 300;}
+.white{color:#fff;}
+.whsp{white-space: pre;}
+.whsp2{white-space: pre-line;}
+.img-frame img{border:1px solid #222222;}
+
+/*---SECTION FIRST----*/
+#wsb-intro{margin-top: 410px; position: relative;}
+h1.intro-txt-h1{font-size: 2.0rem;font-weight: 300;}
+h2.intro-txt-h, h3.intro-txt-h{font-size: 1.6rem;font-weight: 300;}
+h3.intro-txt-h{margin-bottom:0px !important;}
+hr{margin-top:0px !important;}
+
+/*---FOOTER---*/
+
+
+/*--.container-fluid .container {padding: 0;}--*/
+	
+	
+.subpage-margin{margin-top: 80px;}
+.space1{margin-top: 32px;}
+a.leadmail{color:#b61924;}
+a.leadmail:hover{color:#5e5e5e;}
+
+/*-------------iPHONE------------*/
+/*---iPhone  2 3 4 ---*/
+@media only screen
+and (min-width: 320px) 
+and (max-width: 480px)
+and (orientation: portrait)  {
+	.navbar-toggler {width: 100%;float: none;margin: 0 auto;border-width:0;border-radius:0;}
+	.video-container {max-height: 390px;margin-top: 60px;}
+	h1#megatxt{line-height:2.0rem;margin-left:-10px;padding-top:32px;text-shadow: 2px 2px 2px rgba(0,0,0,1);font-size:1.5rem;letter-spacing:0.0px;z-index: auto;}
+	#vidlayer{min-height: 170px;max-height: 170px;background: url("../img/webdesign-seo-berlin-suchmaschinenoptimierung-iphone5-portrait.png") no-repeat; background-position: center bottom;}
+	h1.intro-text{font-size:1.6rem;}
+	#references h1{font-size:1.1em;}
+	#references {margin-top:-22px;}
+	footer{text-align: center;}
+}
+/*---iPhone  2 3 4 landscape---*/
+@media only screen
+and (min-width : 320px) 
+and (max-width : 480px)
+and (orientation: landscape) {
+	.navbar-toggler {border-width:0;border-radius:0;}
+	h1#megatxt{line-height:2.6rem;margin-left:-160px;padding-top:0px;margin-top:-20px;text-shadow: 2px 2px 2px rgba(0,0,0,1);font-size:2.4rem;letter-spacing:0.0px;z-index: auto;}
+	#vidlayer{min-height: 180px;max-height: 180px;background: url("../img/webdesign-seo-berlin-suchmaschinenoptimierung-iphone5-landscape.png") no-repeat; background-position: center bottom;}
+	#references h1{font-size:1.1em;}
+	#references {margin-top:-22px;}
+	h1.intro-text{font-size:1.6rem;}
+	footer{text-align: center;}
+}
+/*---iPhone 5----*/
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.navbar-brand{margin-left: -10px;}
+	.navbar-toggler {width: 100%;float: none;margin: 0 auto;border-width:0;border-radius:0;}
+	.video-container {max-height: 390px;margin-top: 60px;}
+	h1#megatxt{line-height:2.0rem;margin-left:-160px;padding-top:32px;text-shadow: 2px 2px 2px rgba(0,0,0,1);font-size:1.5rem;letter-spacing:0.0px;z-index: auto;}
+	#vidlayer{min-height: 170px;max-height: 170px;background: url("../img/webdesign-seo-berlin-suchmaschinenoptimierung-iphone5-portrait.png") no-repeat; background-position: center bottom;}
+	.layer-bg1{margin-top:-26px; margin-left:20px;}
+	#wsb-intro{margin-top: 240px !important;}
+	h1.intro-txt-h1{font-size: 1.5rem;font-weight: 300;}
+	h2.intro-txt-h, h3.intro-txt-h{font-size: 1.0rem;font-weight: 300;}
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important; min-height: 72px;}
+	#wsb-text{margin-left: 0.6em; font-size:1.0em;font-weight: 400;}
+	footer{text-align: center;}
+	
+	.subpage-margin{margin-top: 100px;}
+	/*---section#intro-wsb{position: absolute; top: 82px; left:3%;}--*/
+
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.video-container {max-height: 190px;margin-top: 22px;}
+	.navbar-toggler {border-width:0;border-radius:0;}
+	h1#megatxt{line-height:2.6rem;margin-left:-160px;padding-top:0px;margin-top:-20px;text-shadow: 2px 2px 2px rgba(0,0,0,1);font-size:2.4rem;letter-spacing:0.0px;z-index: auto;}
+	#vidlayer{min-height: 180px;max-height: 180px;background: url("../img/webdesign-seo-berlin-suchmaschinenoptimierung-iphone5-landscape.png") no-repeat; background-position: center bottom;}
+	.layer-bg1{margin-top:30px; margin-left:20px;}
+	#wsb-intro{margin-top: 210px !important;}
+	h1.intro-text{font-size:2.4rem;}
+	#references h1{font-size:1.2em;}
+	#references {margin-top:-22px;}
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important;}
+	footer{text-align: center;}
+	/*---section#intro-wsb{position: absolute; top: 52px; left:3%;}---*/
+}
+
+/*---iPhone 6----*/
+@media only screen
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	a img{margin-top:22px;}
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important; min-height: 72px;}
+}
+@media only screen
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	#references h1{font-size:1.6em;}
+	#references {margin-top:-22px;}
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important; min-height: 72px;}
+	/*---section#intro-wsb{position: absolute; top: 32px !important; left:3%;}--*/
+
+}
+/*---iPhone 6 PLUS----*/
+@media only screen 
+and (min-width : 414px) 
+and (max-width : 736px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important; min-height: 72px;}
+}
+
+@media only screen 
+and (min-width : 414px) 
+and (max-width : 736px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.ref-info{margin-top: 22px !important; margin-bottom: 22px !important; min-height: 72px;}
+}
+
+
+/*--- ------- iPad ------- ------*/
+/*--- ------- iPad ------- ------*/
+
+/*---iPad mini portrait---no-retina----*/
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+	h1#megatxt{font-size:3rem; line-height: 3.5rem; letter-spacing: 0.4rem;padding-left:26px;} /*1rem = 16px*/
+}
+/*---iPad mini landscape---no-retina----*/
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+	h1#megatxt{font-size:3rem; line-height: 3.5rem; letter-spacing: 0.4rem;padding-left:26px;} /*1rem = 16px*/
+}
+/*---iPad mini portrait---retina----*/
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	h1#megatxt{font-size:3rem; line-height: 3.5rem; letter-spacing: 0.4rem;padding-left:26px;} /*1rem = 16px*/
+	
+}
+/*---iPad mini landscape---retina----*/
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	h1#megatxt{font-size:3rem; line-height: 3.5rem; letter-spacing: 0.4rem;padding-left:26px;} /*1rem = 16px*/
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media (orientation: portrait) and (min-width : 768px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio: 2){}
+/* Landscape */
+@media (orientation: landscape) and (min-width : 768px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio: 2){}
+
+
+/*----------------------------DESKTOP--------------------------------*/
+/*----------------------------DESKTOP--------------------------------*/
+/*---special" ---*/
+@media only screen and (min-width : 600px) and (max-width: 800px) {
+	h1#megatxt{font-size:4.0rem; line-height: 4rem;padding-left:0px;} /*1rem = 16px*/
+	h1.intro-text{font-size:2.2rem;}
+	#wsb-intro{margin-top: 390px !important;}
+}
+/*---special" ---*/
+@media only screen and (min-width : 768px) and (max-width: 1366px) {
+	h1#megatxt{font-size:4.0rem; line-height: 4rem;padding-left:0px;} /*1rem = 16px*/
+	#wsb-intro{margin-top: 390px !important;}
+}
+/*---regular size on big" ---*/
+@media only screen and (min-width : 1080px) and (max-width: 1920px) {
+}
+/*---macbook pro 15"" ---*/
+@media only screen and (min-width : 1025px) and (max-width: 1440px) {
+
+}
+/*---macbook pro 15" high resolution ---*/
+@media only screen and (min-width : 1442px) and (max-width: 1600px) {
+
+}
+/*---iMac 21" ---*/
+@media only screen and (min-width : 1622px) and (max-width: 1898px) {
+	
+}
+/*---iMac 27" ---*/
+@media only screen and (min-width : 1920px) and (max-width: 2560px) {
+}
